@@ -43,8 +43,8 @@ class App extends React.Component {
             </div>
           </nav>
         </div>
-        <div className="row">
-          <div className="col s3">
+        <div className="row" >
+          <div className="col s3 " >
             <PlayerList
               players={this.state.players}
               updateCurrentPlayer={this.updateCurrentPlayer}
